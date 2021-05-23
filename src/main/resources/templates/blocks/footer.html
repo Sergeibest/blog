@@ -1,0 +1,14 @@
+<!--Здесь нам нужно указать что этот кусочек кода является фрагментом
+И мы можем встроить этот фрагмент внутрь других html файлов-->
+<html xmlns:th="http://www.thymeleaf.org">
+<!--делаем это тут тоже самое что и в header-->
+<div th:fragment="footer">
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="/blog">Вернуться к статьям</a>
+            </p>
+        </div>
+    </footer>
+</div>
+
